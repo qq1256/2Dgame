@@ -11,14 +11,22 @@ config_version=5
 [application]
 
 config/name="myfirst"
-run/main_scene="uid://w2o4ux0pybd8"
+run/main_scene="uid://x11xopj2fth5"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*uid://c7yt4ms0g26a7"
 
 [display]
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[editor]
+
+version_control/autoload_on_startup=true
 
 [input]
 
