@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://bvmm2blvcmrak" path="res://icon.svg" id="2_i3pqv"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8sqa3"]
-radius = 78.09
-height = 187.21
+radius = 59.0
+height = 120.0
 
 [node name="Player" type="CharacterBody2D" unique_id=1313295138]
 script = ExtResource("1_onrkg")
@@ -15,3 +15,7 @@ texture = ExtResource("2_i3pqv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=565859069]
 shape = SubResource("CapsuleShape2D_8sqa3")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1526403635]
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0
