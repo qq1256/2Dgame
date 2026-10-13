@@ -8,8 +8,10 @@
 script = ExtResource("1_h2yge")
 
 [node name="coin" parent="." unique_id=397883834 instance=ExtResource("1_0xm2m")]
+position = Vector2(561, 514)
 
 [node name="Player" parent="." unique_id=1313295138 instance=ExtResource("2_h2yge")]
+position = Vector2(127, 489)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1401077603]
 
